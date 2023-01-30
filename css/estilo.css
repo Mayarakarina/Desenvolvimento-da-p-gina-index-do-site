@@ -1,106 +1,99 @@
-/********
+/*cabeçalho*/
+.navbar-expand-lg {
+    width: 1400px;
+    height: 110px; 
+    margin: 10px;
+}
 
-Cabeçalho do site - menu 
-
-
-*********/
 
 header img {
-    height: 70px;
-    width: 70px;
-}
-
-
-
-/******************
-
-Conteudo
-
-************/
-
-/**/
-
-#section-vendidos {
-    text-align: center;
-}
-
-#section-vendidos h2 {
-    text-align: center;
-    font-weight: bold;
-
-    padding: 20px;
-}
-
-#section-vendidos img {
-    height: 300px;
-    border-radius: 10px;
-}
-
-#section-vendidos .card {
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-
-#section-vendidos .preco {
-    color: red;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/*************
-    Rodape
-*************/
-
-footer {
-    text-align: center;
-}
-
-footer p {
-    text-align: center;
-    font-weight: bold;
-
-    padding: 10px;
-}
-
-/*Botão ao Voltar topo*/
-
-#voltar-topo {
-    position: fixed;
-    bottom: 5px;
-    right: 50px;
-
-}
-
-/* ****************
-    página de login
-    
-    ********************/
-
-#section-login h1 {
-    text-align: center;
-
-}
-
-#section-login input {
-    width: 100%;
-
+    height: 148px;
+    width: 158px;
 }
 
 #section-banners img {
-    height: 500px;
+    height: 450px;
 }
 
+/*section vendidos*/
 
-/* Box de informações de cadastro*/
-#panel,
-#flip {
+#section-vendidos {
+    text-align: center;
+    
+    }
+
+    #section-vendidos h2 {
+    font-weight: bold;
+    padding: 10px;
+    }
+
+    #section-vendidos img {
+    height: 302px;
+    height: 480px;
+    border-radius: 10px;
+    }
+
+    #section-vendidos .card {
+    margin: 5px;
+    border: 1px solid rgb(97, 16, 16);
+    border-radius: 10px;
+    }
+
+    #section-vendidos .Preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    }    
+   
+  
+
+   
+    /*Rodapé*/
+
+    footer {
+    position: relative;
+    bottom:0;
+    }
+    
+    footer p {
+    text-align: center;
+    font-weight: bold;
+
+        padding: 20px; 
+    }
+    
+    /*botão ao voltar topo*/
+
+    #voltar-topo {
+     position: fixed;
+     bottom: 5px;
+     right: 50px;
+    }
+
+   /* pagina de login */
+     
+    #section-login {
+        margin-top: 100px;
+    }
+
+
+   #section-login h1 {
+     text-align: center;
+   }
+
+   #section-login input {
+    width: 100%;
+   }
+
+   #section-cadastro {
     padding: 5px;
     text-align: center;
-    background-color: #fff;
-}
+    background-color: rgb(253, 252, 252);
+   }
 
-#panel {
+   #form-cadastrar {
     padding: 50px;
     display: none;
-}
+   }
+
+   
